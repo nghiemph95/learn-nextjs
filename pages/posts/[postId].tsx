@@ -6,6 +6,7 @@ export interface PostDetailPagePageProps {}
 export default function PostDetailPagePage(props: PostDetailPagePageProps) {
   const router = useRouter();
 
+  /** Localhost: 3000/posts/12345 -> path parameter: postId : '12345' */
   return (
     <div>
       <h1>Post Detail Page</h1>
