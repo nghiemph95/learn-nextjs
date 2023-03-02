@@ -13,3 +13,7 @@
  * từ server, sau đó client lấy file html đó về và nhiệm vụ của hydrate là thêm event listener vào markup.
  *
  */
+
+/** Lưu ý:
+ * Đối với ReactApp: Ban đầu nó chưa render, nó chỉ tải file html có div root là rỗng, sau đó mới load JS và render APP
+ */
