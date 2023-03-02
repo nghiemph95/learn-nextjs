@@ -11,6 +11,9 @@ export default function AboutPage(props: AboutPageProps) {
   return <div>About Page</div>;
 }
 
+/** Nếu sử dụng hàm getServerSideProps thì trang sẽ ko thể Automatic Static Optimization (ASO) được nữa
+ * tức là trang không thể SSG (Static Site Generation) được nữa
+ */
 export async function getServerSideProps() {
   return {
     props: {},
