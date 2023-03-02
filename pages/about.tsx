@@ -10,3 +10,9 @@ export default function AboutPage(props: AboutPageProps) {
 
   return <div>About Page</div>;
 }
+
+export async function getServerSideProps() {
+  return {
+    props: {},
+  };
+}
