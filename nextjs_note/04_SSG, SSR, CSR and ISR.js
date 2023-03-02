@@ -17,3 +17,13 @@
 /** Lưu ý:
  * Đối với ReactApp: Ban đầu nó chưa render, nó chỉ tải file html có div root là rỗng, sau đó mới load JS và render APP
  */
+
+/** SSG: Thực hiện ở build time
+ * Build ra file HTML, sau đó user sẽ get file HTML về -> Tốc độ nhanh
+ */
+
+/** SSR: Thực hiện ở run time
+ * Tức là mỗi lầ nhận 1 request từ user -> tạo ra file HTML sau đó mới trả về
+ */
+
+/** CSG: Kết hợp fetch data từ client và SSG : tạo ra file markup sẵn, và dữ liệu không cần lấy từ server */
