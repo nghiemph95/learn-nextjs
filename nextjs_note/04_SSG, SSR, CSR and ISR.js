@@ -19,7 +19,7 @@
  */
 
 /** SSG: Thực hiện ở build time
- * Build ra file HTML, sau đó user sẽ get file HTML về -> Tốc độ nhanh
+ * Build ra 1 mớ file HTML, sau đó user sẽ get mớ file HTML về -> Tốc độ nhanh
  */
 
 /** SSR: Thực hiện ở run time
