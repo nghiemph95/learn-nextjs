@@ -12,5 +12,5 @@
  * - File-system Routing: Every component in the 'page' directory becomes a route.
  * - API Routes: Optionally create API endpoints to provide backend fucntionally.
  * - Build-in CSS Support
- * - Code-spliting and Bundling
+ * - Code-spliting and Bundlinggg
  */
