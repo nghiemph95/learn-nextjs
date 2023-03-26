@@ -8,7 +8,7 @@ export interface PostListPageProps {
 export default function PostListPage(props: PostListPageProps) {
   return <div>Post List Page</div>;
 }
-
+/** PostListPageProps: là 1 generic */
 export const getStaticProps: GetStaticProps<PostListPageProps> = async (context: GetStaticPropsContext) => {
   // server-side
   // build-time
