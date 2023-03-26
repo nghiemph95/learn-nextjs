@@ -10,9 +10,15 @@ export default function PostListPage(props: PostListPageProps) {
 }
 
 export const getStaticProps: GetStaticProps<PostListPageProps> = async (context: GetStaticPropsContext) => {
+  // server-side
+  // build-time
+  /** Hàm này chỉ chạy trên phía server, nên có thể thao tác bất kì thứ gì liên quan đến
+   * NodeJS
+   */
+
+  console.log('static props');
+
   return {
-    // server-side
-    // build-time
     props: {
       posts: [],
     },
