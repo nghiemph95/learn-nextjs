@@ -32,5 +32,5 @@
  * nếu sử dụng SSR thì mỗi lần server pk làm việc rất cực.
  * -> Tạo ra khái niệm ISR: Tức là, thay vì có 1tr sản phẩm, nhưng có 1k sản phẩm phổ biển
  * thì sẽ build ra sẵn 1k file HTML theo SSG, nếu như query sản phâmr nào chưa có
- * thì sẽ tạo ra 1 file HTML mới để gửi lên cho user bằng SSR
+ * thì sẽ tạo ra 1 file HTML mới để gửi lên cho user bằng SSR.
  */
