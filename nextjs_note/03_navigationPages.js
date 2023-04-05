@@ -3,7 +3,7 @@
     . SSG - Static Site Generation
     . SSR - Server Side Rendering
     . CSR - Client Side Rendering
-    . ISR - Incremental Static Regeneration
+    . ISR - Incremental Static Regenerationn
  */
 
 /** Pre-rendering (SSR - SSG): Render sẵn file HTML ở fía server lên cho user
